@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import datetime
+import os
 from sqlalchemy import create_engine
 
 st.set_page_config(page_title="Tech Sentiment Monitor", layout="wide", initial_sidebar_state="expanded")
@@ -172,7 +173,14 @@ def section_label(text):
 # ─────────────────────────────────────────────
 #  DATA
 # ─────────────────────────────────────────────
-conn_uri = st.secrets["SUPABASE_URL"]
+try:
+    conn_uri = st.secrets["SUPABASE_URL"]
+except (FileNotFoundError, KeyError):
+    conn_uri = os.environ.get("SUPABASE_URL")
+
+if not conn_uri:
+    raise ValueError("Set SUPABASE_URL in Streamlit secrets or your environment")
+
 engine   = create_engine(conn_uri)
 
 @st.cache_data(ttl=60)
@@ -317,7 +325,8 @@ try:
                 "conf_display":    st.column_config.NumberColumn("Confidence", format="%d%%"),
                 "top_keywords":    st.column_config.TextColumn("Keywords"),
             },
-            hide_index=True, use_container_width=True, height=380,
+            hide_index=True, use_container_width=True,
+            height=min(380, 45 + len(latest_all) * 35),
         )
 
     # ══════════════════════════════════════

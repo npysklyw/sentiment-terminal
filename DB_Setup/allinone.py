@@ -18,9 +18,17 @@ except ImportError:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # --- CONFIG ---
-SUPABASE_URL = os.environ.get('SUPABASE_URL')
+CONFIG_PATH = os.path.join(os.path.dirname(__file__), '..', 'config.json')
+try:
+    with open(CONFIG_PATH, 'r') as config_file:
+        config = json.load(config_file)
+except FileNotFoundError:
+    config = {}
 
-ALPHA_KEY = os.environ.get('ALPHA_VANTAGE_API_KEY')
+SUPABASE_URL = os.environ.get('SUPABASE_URL') or config.get('supabase_url')
+
+ALPHA_KEY = os.environ.get('ALPHA_VANTAGE_API_KEY') or config.get('alpha_vantage_api_key')
+DEFAULT_TICKER = config.get('ticker', 'NVDA')
 
 
 COMPANY_KEYWORDS = {
@@ -29,6 +37,8 @@ COMPANY_KEYWORDS = {
     "AAPL": ["iPhone", "Mac", "Apple Watch", "services", "retail"],
     "AMZN": ["AWS", "Prime", "retail", "cloud", "logistics"],
     "MSFT": ["Azure", "Windows", "Office", "cloud", "AI"],
+    "GOOGL": ["Google", "Alphabet", "YouTube", "Gemini", "cloud", "AI"],
+    "META": ["Facebook", "Instagram", "Reality Labs", "Llama", "AI", "advertising"],
     # ... add for all tickers you track
 }
 
@@ -198,12 +208,22 @@ KEYWORDS = ["ai", "gpu", "chip", "datacenter", "model", "llm", "semiconductor"]
 
 def fetch_sentiment(ticker):
     url = f"https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={ticker}&apikey={ALPHA_KEY}"
-    data = requests.get(url).json()
+    response = requests.get(url, timeout=30)
+    response.raise_for_status()
+    data = response.json()
+
+    if data.get("Note") or data.get("Information") or data.get("Error Message"):
+        message = data.get("Note") or data.get("Information") or data.get("Error Message")
+        raise RuntimeError(f"Alpha Vantage API error for {ticker}: {message}")
+
+    feed = data.get("feed")
+    if not isinstance(feed, list):
+        raise RuntimeError(f"Alpha Vantage returned no news feed for {ticker}")
 
     scores = []
     found_keywords = []
 
-    for item in data.get("feed", []):
+    for item in feed:
         summary = (item.get("title","") + item.get("summary",""))
 
         # ticker sentiment
@@ -217,6 +237,9 @@ def fetch_sentiment(ticker):
         kws, _ = extract_company_keywords(ticker, summary)
         if kws:
             found_keywords.extend(kws.split(", "))
+
+    if not scores:
+        logging.warning("No ticker sentiment scores returned for %s", ticker)
 
     avg = sum(scores) / len(scores) if scores else 0.0
     unique_keywords = list(dict.fromkeys(found_keywords))[:5]  # top 5, remove duplicates
@@ -317,7 +340,8 @@ def save_to_db(ticker, price, signal, confidence,
 
 # --- MAIN ---
 if __name__ == "__main__":
-    tickers = os.environ.get("TICKERS", "NVDA").split(",")
+    tickers = [ticker.strip() for ticker in
+               os.environ.get("TICKERS", DEFAULT_TICKER).split(",") if ticker.strip()]
 
     for t in tickers:
         try:
