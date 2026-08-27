@@ -286,7 +286,7 @@ try:
     #  TAB 1 — GRID with sparklines + Δ
     # ══════════════════════════════════════
     with tab_grid:
-        section_label("Full sector grid · 10 assets")
+        section_label("Full sector grid")
 
         latest_all['conf_display'] = latest_all['confidence'] * 100
         latest_all['24h'] = latest_all['sentiment_delta'].apply(

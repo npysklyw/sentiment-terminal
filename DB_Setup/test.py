@@ -2,12 +2,13 @@ import yfinance as yf
 import psycopg2
 from datetime import datetime
 import logging
+import os
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # Supabase PostgreSQL connection string
-SUPABASE_URL = "postgresql://postgres:Lothlorienharad@db.jjamvtfqzrnicbdxfihl.supabase.co:5432/postgres"
+SUPABASE_URL = os.environ['SUPABASE_URL']
 
 def fetch_stock_data(ticker):
     try:

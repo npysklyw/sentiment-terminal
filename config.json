@@ -1,6 +1,0 @@
-{
-  "ticker": "AMD",
-  "alpha_vantage_api_key": "J94KI27F1JRW83CZ",
-  "supabase_url": "postgresql://postgres.jjamvtfqzrnicbdxfihl:Lothlorienharad@aws-1-us-east-1.pooler.supabase.com:6543/postgres",
-  "finnhub_api_key":"d6teo5hr01qhkb43t1bgd6teo5hr01qhkb43t1c0"
-}

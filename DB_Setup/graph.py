@@ -3,16 +3,11 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 import matplotlib.dates as mdates
-import json
 import datetime
 import os
 from datetime import datetime  # <--- FIX 1: Import the class specifically
 
 # ... other imports ...
-
-# ... config loading ...
-
-
 
 # FIX 2: To avoid the SQLAlchemy warning, use the connection directly 
 # but pass it as a context manager or just ignore the warning for now.
@@ -21,16 +16,9 @@ from datetime import datetime  # <--- FIX 1: Import the class specifically
 # warnings.filterwarnings("ignore", category=UserWarning)
 
 
-# 1. Load config - keeping your logic so you don't have to change it
-try:
-    with open('config.json', 'r') as f:
-        config = json.load(f)
-except FileNotFoundError:
-    with open('../config.json', 'r') as f:
-        config = json.load(f)
-
-SUPABASE_URL = config['supabase_url']
-TICKER = config.get('ticker', 'NVDA')
+# 1. Load deployment configuration from environment variables
+SUPABASE_URL = os.environ['SUPABASE_URL']
+TICKER = os.environ.get('TICKER', 'NVDA')
 
 # 2. Connect to Supabase
 conn = psycopg2.connect(SUPABASE_URL)

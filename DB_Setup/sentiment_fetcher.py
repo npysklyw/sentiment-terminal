@@ -3,8 +3,7 @@ import sqlite3
 import json
 import os
 
-#testHW1X9R71G82S9VUO
-API_KEY = 'J94KI27F1JRW83CZ'
+API_KEY = os.environ['ALPHA_VANTAGE_API_KEY']
 
 symbol = 'NVDA'
 #url = f'https://www.alphavantage.co/query?function=NEWS_SENTIMENT&tickers={symbol}&apikey={API_KEY}'

@@ -1,0 +1,5 @@
+config.json
+DB_Setup/.streamlit/secrets.toml
+.env
+__pycache__/
+*.py[cod]
