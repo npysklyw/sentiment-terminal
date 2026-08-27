@@ -251,7 +251,7 @@ try:
             </p>
         </div>
         <div style="font-size:11px;color:#334155;letter-spacing:0.05em;text-transform:uppercase;
-                    padding:6px 12px;border:1px solid #1e2733;border-radius:6px;">Live · 60s refresh</div>
+                padding:6px 12px;border:1px solid #1e2733;border-radius:6px;">Data updated periodically</div>
     </div>
     """, unsafe_allow_html=True)
 
@@ -326,7 +326,7 @@ try:
                 "top_keywords":    st.column_config.TextColumn("Keywords"),
             },
             hide_index=True, use_container_width=True,
-            height=min(380, 45 + len(latest_all) * 35),
+            height=max(150, 38 + len(latest_all) * 35),
         )
 
     # ══════════════════════════════════════
