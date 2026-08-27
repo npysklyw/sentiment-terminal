@@ -1,0 +1,44 @@
+name: Market Pulse Multi-Ticker Sync
+
+on:
+  schedule:
+    - cron: '0 13-20 * * 1-5'
+  workflow_dispatch:
+
+jobs:
+  sync-and-graph:
+    runs-on: ubuntu-latest
+    environment: SUPABASE_URL
+
+    strategy:
+      matrix:
+        ticker_group: ["NVDA,AMD", "AAPL,MSFT", "GOOGL,TSLA", "META,AMZN"]
+      fail-fast: false
+      max-parallel: 1   # safer for APIs + DB
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip
+
+      - name: Install dependencies
+        run: pip install yfinance psycopg2-binary requests pandas
+
+      - name: Run data sync (with retry + timeout)
+        env:
+          TICKERS: ${{ matrix.ticker_group }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          ALPHA_VANTAGE_API_KEY: ${{ secrets.ALPHA_VANTAGE_API_KEY }}
+        run: |
+          for i in 1 2 3; do
+            timeout 300 python DB_Setup/allinone.py && break
+            echo "Retry $i..."
+            sleep 15
+          done

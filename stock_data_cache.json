@@ -1,0 +1,2361 @@
+{
+    "items": "50",
+    "sentiment_score_definition": "x <= -0.35: Bearish; -0.35 < x <= -0.15: Somewhat-Bearish; -0.15 < x < 0.15: Neutral; 0.15 <= x < 0.35: Somewhat_Bullish; x >= 0.35: Bullish",
+    "relevance_score_definition": "0 < x <= 1, with a higher score indicating higher relevance.",
+    "feed": [
+        {
+            "title": "2025 Brookfield Corporation Annual Report",
+            "url": "https://www.brookfield.com/2025-brookfield-corporation-annual-report",
+            "time_published": "20260318T133253",
+            "authors": [],
+            "summary": "Brookfield Corporation's 2025 Annual Report highlights a strong year with record fundraising ($112 billion) and acquisitions ($126 billion), delivering a 21% return on shares. The report details the company's long-term strategy, focusing on identifying enduring businesses with secular trends, generating compound returns, and maintaining financial flexibility. Brookfield is particularly focused on AI infrastructure, real estate, and streamlining its corporate structure, while emphasizing partnerships with leading global companies.",
+            "banner_image": "https://www.brookfield.com/sites/default/files/styles/menu_feature_card_manual_1x/public/2026-02/Bruce%20Bloomberg%20thumbnail%20Feb%202026_0.png?h=dcdcc56f&itok=ezzDbSDc",
+            "source": "Brookfield",
+            "category_within_source": "General",
+            "source_domain": "Brookfield",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.908407"
+                },
+                {
+                    "topic": "real_estate",
+                    "relevance_score": "0.745250"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.740573"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.609661"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.600585"
+                }
+            ],
+            "overall_sentiment_score": 0.266257,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BIP-P-B",
+                    "relevance_score": "0.305364",
+                    "ticker_sentiment_score": "0.040321",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.602147",
+                    "ticker_sentiment_score": "0.304749",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "0.622111",
+                    "ticker_sentiment_score": "0.319560",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.636323",
+                    "ticker_sentiment_score": "0.318550",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "JPM",
+                    "relevance_score": "0.635207",
+                    "ticker_sentiment_score": "0.320350",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Supermicro Advances Enterprises' Adoption of Accelerated Computing Across AI Factory, Data Center, and Edge with Expanded Portfolio Featuring NVIDIA RTX PRO Blackwell Server Edition GPUs",
+            "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Advances-Enterprises-Adoption-of-Accelerated-Computing-Across-AI-Factory-Data-Center-and-Edge-with-Expanded-Portfolio-Featuring-NVIDIA-RTX-PRO-Blackwell-Server-Edition-GPUs/default.aspx",
+            "time_published": "20260318T130911",
+            "authors": [],
+            "summary": "Supermicro has expanded its portfolio of enterprise solutions to support NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and NVIDIA Vera CPUs, enabling accelerated computing across AI factory, data center, and edge environments. These new systems offer optimized form factors for space, power, and thermal constraints, providing significant workload acceleration compared to CPU-only systems. Supermicro's NVIDIA-Certified Systems ensure compatibility and offer turnkey solutions for various AI and graphical computing applications.",
+            "banner_image": "https://mma.prnewswire.com/media/2936146/Supermicro_GTC_Enterprise.jpg",
+            "source": "Supermicro",
+            "category_within_source": "General",
+            "source_domain": "Supermicro",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.903088"
+                }
+            ],
+            "overall_sentiment_score": 0.855946,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMCI",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.882626",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.943447",
+                    "ticker_sentiment_score": "0.828984",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Supermicro Advances Enterprises' Adoption of Accelerated Computing Across AI Factory, Data Center, and Edge with Expanded Portfolio Featuring NVIDIA RTX PRO Blackwell Server Edition GPUs",
+            "url": "https://www.prnewswire.co.uk/news-releases/supermicro-advances-enterprises-adoption-of-accelerated-computing-across-ai-factory-data-center-and-edge-with-expanded-portfolio-featuring-nvidia-rtx-pro-blackwell-server-edition-gpus-302716333.html",
+            "time_published": "20260318T130515",
+            "authors": [],
+            "summary": "Supermicro is expanding its portfolio of enterprise solutions to bolster the adoption of accelerated computing across AI Factory, data centers, and edge environments. The new offerings feature NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and NVIDIA Vera CPUs, enabling enhanced acceleration and efficiency for diverse workloads. Supermicro's NVIDIA-Certified Systems ensure compatibility and accelerate enterprise applications, providing flexible, modular solutions for varied infrastructure needs.",
+            "banner_image": "https://mma.prnewswire.com/media/2936146/Supermicro_GTC_Enterprise.jpg",
+            "source": "PR Newswire UK",
+            "category_within_source": "General",
+            "source_domain": "PR Newswire UK",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.28563,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMCI",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.443477",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.802401",
+                    "ticker_sentiment_score": "0.304157",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.639001",
+                    "ticker_sentiment_score": "0.213912",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "HPE",
+                    "relevance_score": "0.595131",
+                    "ticker_sentiment_score": "0.135362",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "New Supermicro servers pack NVIDIA AI power into tight data centers",
+            "url": "https://www.stocktitan.net/news/SMCI/supermicro-advances-enterprises-adoption-of-accelerated-computing-a0xbuycn8m04.html",
+            "time_published": "20260318T130515",
+            "authors": [],
+            "summary": "Supermicro has expanded its accelerated computing portfolio with new servers supporting NVIDIA RTX PRO 4500 Blackwell Server Edition GPUs and NVIDIA Vera CPUs. These systems are designed to bring AI power to a wider range of enterprise environments, including compact edge deployments and traditional data centers, offering solutions for AI inference, LLM fine-tuning, and HPC with GPU power as low as 165W. Supermicro's NVIDIA-Certified Systems ensure compatibility and accelerate various workloads, aiming to simplify the adoption of AI infrastructure.",
+            "banner_image": "https://mma.prnewswire.com/media/2936146/Supermicro_GTC_Enterprise.jpg",
+            "source": "Stock Titan",
+            "category_within_source": "General",
+            "source_domain": "Stock Titan",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.925538"
+                }
+            ],
+            "overall_sentiment_score": 0.167036,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SMCI",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.331947",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.883507",
+                    "ticker_sentiment_score": "0.324336",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "WDC",
+                    "relevance_score": "0.598939",
+                    "ticker_sentiment_score": "0.122557",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "STX",
+                    "relevance_score": "0.595466",
+                    "ticker_sentiment_score": "0.116956",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "HPQ",
+                    "relevance_score": "0.572920",
+                    "ticker_sentiment_score": "0.038346",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "F5 collaborates with AWS and Microsoft on NSS Labs research paper on AI runtime security testing",
+            "url": "https://www.marketscreener.com/news/f5-collaborates-with-aws-and-microsoft-on-nss-labs-research-paper-on-ai-runtime-security-testing-ce7e5ed9db89fe27",
+            "time_published": "20260318T130334",
+            "authors": [],
+            "summary": "F5 has partnered with AWS and Microsoft on a research paper by NSS Labs focusing on AI runtime security testing. This collaboration underscores F5's commitment to advancing security within artificial intelligence applications, likely contributing to more robust and reliable AI systems. The announcement comes amidst several other AI-related developments for F5, including collaborations with Nvidia and Red Hat.",
+            "banner_image": null,
+            "source": "marketscreener.com",
+            "category_within_source": "General",
+            "source_domain": "marketscreener.com",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.716527"
+                }
+            ],
+            "overall_sentiment_score": 0.386445,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "FFIV",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.490906",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.602711",
+                    "ticker_sentiment_score": "0.306189",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.612764",
+                    "ticker_sentiment_score": "0.397984",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "CRWD",
+                    "relevance_score": "0.575878",
+                    "ticker_sentiment_score": "0.295342",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Keysight Technologies Stock (ISIN: US49338L1035) Gains on AI Inference Platform Launch Amid Strong Y",
+            "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/keysight-technologies-stock-isin-us49338l1035-gains-on-ai-inference/68790181",
+            "time_published": "20260318T124547",
+            "authors": [
+                "Dr. Elena Voss"
+            ],
+            "summary": "Keysight Technologies (ISIN: US49338L1035) saw its stock rise over 0.5% after launching its AI Inference Builder platform, designed to validate AI infrastructure. This move reinforces the company's position in the growing AI testing market, building on its impressive 41% year-to-date gain. Analysts maintain a \"Buy\" consensus with a target price suggesting further upside, highlighting Keysight's strategic pivot into AI validation tools amid strong market demand.",
+            "banner_image": "https://mdb.ad-hoc-news.de/bild/bild-2405051_1200_675.webp",
+            "source": "AD HOC NEWS",
+            "category_within_source": "General",
+            "source_domain": "AD HOC NEWS",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.817891"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.946873"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.31505,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "KEYS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.440987",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.649029",
+                    "ticker_sentiment_score": "0.309203",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TER",
+                    "relevance_score": "0.635044",
+                    "ticker_sentiment_score": "0.116291",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Wilmington Savings Fund Society FSB Has $13.46 Million Position in RTX Corporation $RTX",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-wilmington-savings-fund-society-fsb-has-1346-million-position-in-rtx-corporation-rtx-2026-03-18/",
+            "time_published": "20260318T122617",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Wilmington Savings Fund Society FSB reduced its stake in RTX Corporation by 27.7% during the third quarter, now holding 80,455 shares valued at $13.46 million. Despite insider selling, analysts rate RTX a \"Moderate Buy\" with a $202 consensus target. The company recently reported strong quarterly earnings, beating estimates with $1.55 EPS and $24.24 billion in revenue, and issued FY2026 guidance of $6.60\u2013$6.80 EPS.",
+            "banner_image": "https://www.marketbeat.com/logos/rtx-corporation-logo-1200x675.png?v=20251216095440",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.907262"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.826885"
+                }
+            ],
+            "overall_sentiment_score": 0.18544,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "RTX",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.417498",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.607410",
+                    "ticker_sentiment_score": "-0.121788",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "International Business Machines Corporation $IBM Shares Acquired by Wilmington Savings Fund Society FSB",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-international-business-machines-corporation-ibm-shares-acquired-by-wilmington-savings-fund-society-fsb-2026-03-18/",
+            "time_published": "20260318T122544",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Wilmington Savings Fund Society FSB increased its stake in International Business Machines (IBM) by 3.7%, now holding 82,405 shares valued at $23.25 million. This comes as IBM strengthens its hybrid-cloud and enterprise AI strategy through recent acquisitions and collaborations, including the $11 billion acquisition of Confluent and an expanded partnership with NVIDIA. Despite recent stock weakness below moving averages, analysts maintain a \"Moderate Buy\" rating with a consensus price target of $320.87, following a quarter where IBM beat EPS and revenue estimates.",
+            "banner_image": "https://www.marketbeat.com/logos/international-business-machines-co-logo-1200x675.png?v=20221020160751",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.913787"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.824327"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.744456"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.912268"
+                }
+            ],
+            "overall_sentiment_score": 0.190954,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.253536",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.711933",
+                    "ticker_sentiment_score": "0.336487",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.647184",
+                    "ticker_sentiment_score": "0.014876",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "OpenClaw Investment Guide: Morgan Stanley Lists Top AI Agent Platform Stocks By Investing.com",
+            "url": "https://www.investing.com/news/stock-market-news/openclaw-investment-guide-morgan-stanley-lists-top-stocks-in-ai-agent-platforms-4568132",
+            "time_published": "20260318T120800",
+            "authors": [
+                "Senad Karaahmetovic"
+            ],
+            "summary": "Morgan Stanley has identified three top AI agent platform stocks following NVIDIA CEO Jensen Huang's remarks on OpenClaw, an open-source autonomous AI agent platform. The listed companies \u2014 MiniMax Group Inc., Knowledge Atlas Tech Joint Stock (Zhipu), and Baidu \u2014 are recognized for their advancements in AI agent capabilities, including self-evolving agents, specialized deployment frameworks, and ecosystem integration. This guide highlights their contributions to the evolving landscape of AI agents, which can execute real-world tasks beyond simple chatbots.",
+            "banner_image": "https://i-invdn-com.investing.com/news/ArtificialIntelligenceAI_800x533_L_1759953901.jpg",
+            "source": "Investing.com",
+            "category_within_source": "General",
+            "source_domain": "Investing.com",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.910894"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                }
+            ],
+            "overall_sentiment_score": 0.270614,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "MS",
+                    "relevance_score": "0.731748",
+                    "ticker_sentiment_score": "0.111500",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.928113",
+                    "ticker_sentiment_score": "0.428286",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Should you consider adding State Street SPDR S&P 500 ETF Trust (SPY) to your investment watchlist?",
+            "url": "https://www.bitget.com/amp/news/detail/12560605275711",
+            "time_published": "20260318T110841",
+            "authors": [
+                "101 finance"
+            ],
+            "summary": "The article provides an overview of the State Street SPDR S&P 500 ETF Trust (SPY), highlighting its focus on large-cap blend U.S. stocks, low expense ratio of 0.09%, and moderate risk profile. It details SPY's sector allocation, leading holdings like Nvidia, Apple, and Microsoft, and its performance, noting a 19.56% gain over the past year despite a recent decline. The article also compares SPY to alternative S&P 500 ETFs like IVV and VOO, emphasizing the benefits of passively managed ETFs for long-term investors.",
+            "banner_image": null,
+            "source": "Bitget",
+            "category_within_source": "General",
+            "source_domain": "Bitget",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.913202"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.843027"
+                }
+            ],
+            "overall_sentiment_score": 0.330005,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SPY",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.430913",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.645138",
+                    "ticker_sentiment_score": "0.301044",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.603833",
+                    "ticker_sentiment_score": "0.301063",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.645294",
+                    "ticker_sentiment_score": "0.336311",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Uber Technologies, Inc. $UBER Shares Sold by Greenfield Seitz Capital Management LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-uber-technologies-inc-uber-shares-sold-by-greenfield-seitz-capital-management-llc-2026-03-18/",
+            "time_published": "20260318T110825",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Greenfield Seitz Capital Management LLC decreased its stake in Uber Technologies by 19.0% in Q3, selling 14,439 shares, though institutional investors still hold a significant portion of the company's stock. Analysts generally maintain a \"Moderate Buy\" rating with an average target price of $105.29, despite Uber missing Q4 EPS estimates and providing cautious Q1 2026 guidance. Recent positive news includes an expanded robotaxi rollout with NVIDIA and reaffirmed analyst conviction in Uber's autonomous and core rideshare strategies.",
+            "banner_image": "https://www.marketbeat.com/logos/uber-technologies-inc-logo-1200x675.png?v=20191127154752",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.905685"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.849145"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.616216"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.728355"
+                }
+            ],
+            "overall_sentiment_score": 0.213529,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.123364",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.606861",
+                    "ticker_sentiment_score": "0.348745",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Old North State Trust LLC Has $2.77 Million Stock Holdings in International Business Machines Corporation $IBM",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-old-north-state-trust-llc-has-277-million-stock-holdings-in-international-business-machines-corporation-ibm-2026-03-18/",
+            "time_published": "20260318T105939",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Old North State Trust LLC has significantly increased its stake in International Business Machines (IBM), now holding 9,821 shares valued at $2.77 million, making it their 11th largest holding. This increase follows IBM's strategic moves, including the acquisition of Confluent and expanding its partnership with NVIDIA, which strengthen its position in AI and hybrid cloud. Analysts maintain a \"Moderate Buy\" rating for IBM, with insider activity also showing share purchases.",
+            "banner_image": "https://www.marketbeat.com/logos/international-business-machines-co-logo-1200x675.png?v=20221020160751",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.921361"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.831151"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.746609"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.616985"
+                }
+            ],
+            "overall_sentiment_score": 0.277185,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.287002",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.623232",
+                    "ticker_sentiment_score": "0.322389",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NOW",
+                    "relevance_score": "0.591511",
+                    "ticker_sentiment_score": "0.219425",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "103,572 Shares in Hewlett Packard Enterprise Company $HPE Bought by Oarsman Capital Inc.",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-103572-shares-in-hewlett-packard-enterprise-company-hpe-bought-by-oarsman-capital-inc-2026-03-18/",
+            "time_published": "20260318T105936",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Oarsman Capital Inc. recently purchased 103,572 shares of Hewlett Packard Enterprise (HPE) valued at approximately $2.54 million. This comes amid increased analyst ratings and price target increases, driven by HPE's strong AI partnerships with NVIDIA. Despite recent insider selling by executives, investment firms are boosting their stakes, and the company reported strong Q1 earnings, raising its full-year guidance.",
+            "banner_image": "https://www.marketbeat.com/logos/hewlett-packard-enterprise-co-logo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.929086"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.849332"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.712906"
+                }
+            ],
+            "overall_sentiment_score": 0.314349,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.311279",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.648338",
+                    "ticker_sentiment_score": "0.330297",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Provident Investment Management Inc. Sells 249,282 Shares of Uber Technologies, Inc. $UBER",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-provident-investment-management-inc-sells-249282-shares-of-uber-technologies-inc-uber-2026-03-18/",
+            "time_published": "20260318T104518",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Provident Investment Management Inc. significantly reduced its stake in Uber Technologies by selling 249,282 shares in the third quarter, now holding 110,191 shares valued at approximately $10.8 million. This comes as Uber announced a major partnership with Nvidia for the rollout of Level-4 robotaxis, which has generated positive analyst sentiment despite Uber missing EPS estimates for the quarter. The article also details other institutional investor activity, insider trades, and various analyst ratings for Uber.",
+            "banner_image": "https://www.marketbeat.com/logos/uber-technologies-inc-logo-1200x675.png?v=20191127154752",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.916063"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.824230"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.700878"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.641658"
+                }
+            ],
+            "overall_sentiment_score": 0.252215,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.202982",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.611900",
+                    "ticker_sentiment_score": "0.311491",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Ciena Corporation $CIEN is DigitalBridge Group Inc.'s 7th Largest Position",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-ciena-corporation-cien-is-digitalbridge-group-incs-7th-largest-position-2026-03-18/",
+            "time_published": "20260318T103916",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "DigitalBridge Group Inc. reduced its stake in Ciena Corporation (NYSE:CIEN) by 20.7% in the third quarter, making Ciena its seventh-largest position. Despite this, several other institutional investors increased their holdings in Ciena, which accounts for 0.22% of DigitalBridge's portfolio value. The article also details recent insider stock sales, positive analyst sentiment driven by AI demand, and new price targets from various brokerages.",
+            "banner_image": "https://www.marketbeat.com/logos/ciena-co-logo-1200x675.png?v=20240424113311",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.935798"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.908154"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.803258"
+                }
+            ],
+            "overall_sentiment_score": 0.193429,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CIEN",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.226789",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "ANET",
+                    "relevance_score": "0.640937",
+                    "ticker_sentiment_score": "0.282467",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.583327",
+                    "ticker_sentiment_score": "0.105378",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "DigitalBridge Group Inc. Boosts Stock Holdings in The Walt Disney Company $DIS",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-digitalbridge-group-inc-boosts-stock-holdings-in-the-walt-disney-company-dis-2026-03-18/",
+            "time_published": "20260318T103819",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "DigitalBridge Group Inc. increased its stake in The Walt Disney Company by 19.3% in the third quarter, now owning 298,938 shares valued at over $34 million. Various other hedge funds also adjusted their positions in Walt Disney. The article provides financial data, recent news impacting Disney, and analyst ratings, noting an average rating of \"Moderate Buy\" with a target price of $135.80.",
+            "banner_image": "https://www.marketbeat.com/logos/the-walt-disney-company-logo-1200x675.png?v=20201229105326",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.941955"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.810158"
+                }
+            ],
+            "overall_sentiment_score": 0.372599,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "DIS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.345280",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.630512",
+                    "ticker_sentiment_score": "0.356239",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Mizuho Markets Cayman LP Sells 5,161,128 Shares of Hewlett Packard Enterprise Company $HPE",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-mizuho-markets-cayman-lp-sells-5161128-shares-of-hewlett-packard-enterprise-company-hpe-2026-03-18/",
+            "time_published": "20260318T103722",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Mizuho Markets Cayman LP significantly reduced its stake in Hewlett Packard Enterprise (HPE) by selling over 5.1 million shares, cutting its position by 99.9%. Despite this major sale, several other institutional investors increased their holdings in HPE. The article also details recent analyst ratings, insider transactions including sales by the CEO and SVP, and key developments impacting HPE, such as its focus on AI products with NVIDIA and positive analyst sentiment.",
+            "banner_image": "https://www.marketbeat.com/logos/hewlett-packard-enterprise-co-logo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.933231"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.811183"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.826871"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.603801"
+                }
+            ],
+            "overall_sentiment_score": 0.273863,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "HPE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.183516",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.616189",
+                    "ticker_sentiment_score": "0.348187",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Danske Bank A S Takes Position in Alphabet Inc. $GOOG",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-takes-position-in-alphabet-inc-goog-2026-03-18/",
+            "time_published": "20260318T103716",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Danske Bank A S has significantly increased its stake in Alphabet Inc. (NASDAQ:GOOG), purchasing over 2.7 million shares valued at approximately $678 million in the third quarter alone. This makes Alphabet the bank's 10th largest position, accounting for 1.7% of its investment portfolio. The article also details recent insider selling by Alphabet executives and a range of analyst ratings, with a consensus of \"Buy\" for the stock.",
+            "banner_image": "https://www.marketbeat.com/logos/google-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.929957"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.841900"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.718464"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.635304"
+                }
+            ],
+            "overall_sentiment_score": 0.221138,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "GOOGL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.283636",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "GOOG",
+                    "relevance_score": "0.988178",
+                    "ticker_sentiment_score": "0.263379",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "0.630173",
+                    "ticker_sentiment_score": "0.110667",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.644394",
+                    "ticker_sentiment_score": "0.321113",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.564083",
+                    "ticker_sentiment_score": "0.212497",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Danske Bank A S Takes Position in Cisco Systems, Inc. $CSCO",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-takes-position-in-cisco-systems-inc-csco-2026-03-18/",
+            "time_published": "20260318T103617",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Danske Bank A S has acquired a new stake in Cisco Systems, Inc. (NASDAQ:CSCO) during the third quarter, purchasing over 3.4 million shares valued at approximately $234 million. This investment makes Cisco Systems the 24th largest holding in Danske Bank A S's portfolio, representing 0.09% of its total ownership in Cisco. The article also highlights recent positive sentiment for Cisco due to large AI infrastructure orders and a strategic partnership with NVIDIA.",
+            "banner_image": "https://www.marketbeat.com/logos/cisco-systems-inc-logo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.942344"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.808987"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.715884"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.604507"
+                }
+            ],
+            "overall_sentiment_score": 0.323294,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CSCO",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.409180",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.741207",
+                    "ticker_sentiment_score": "0.300299",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "JBL",
+                    "relevance_score": "0.590357",
+                    "ticker_sentiment_score": "0.288357",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "DigitalBridge Group Inc. Sells 57,450 Shares of NVIDIA Corporation $NVDA",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-digitalbridge-group-inc-sells-57450-shares-of-nvidia-corporation-nvda-2026-03-18/",
+            "time_published": "20260318T103556",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "DigitalBridge Group Inc. reduced its stake in NVIDIA Corporation by 25.1% in the third quarter, selling 57,450 shares, now holding 171,766 shares valued at $32.05 million. Other institutional investors like Winnow Wealth and Longfellow Investment Management Co. LLC also adjusted their positions. Additionally, insider selling by Director Mark A. Stevens and EVP Ajay K. Puri totaled over 1 million shares in the last three months.",
+            "banner_image": "https://www.marketbeat.com/logos/nvidia-co-logo-1200x675.jpg?v=20221020142916",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.939145"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.934540"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.842196"
+                }
+            ],
+            "overall_sentiment_score": 0.119544,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.108095",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "2,158,796 Shares in Intel Corporation $INTC Acquired by Danske Bank A S",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-2158796-shares-in-intel-corporation-intc-acquired-by-danske-bank-a-s-2026-03-18/",
+            "time_published": "20260318T102938",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Danske Bank A S has acquired a significant new stake in Intel Corporation (NASDAQ:INTC), purchasing over 2.1 million shares valued at approximately $72.4 million during the third quarter. This acquisition highlights continued institutional investment in Intel, despite mixed market sentiment influenced by competitive pressures from Nvidia and fluctuating stock performance. The article also details recent insider transactions and analyst ratings, indicating a consensus \"Reduce\" rating for Intel with a target price around $45.74.",
+            "banner_image": "https://www.marketbeat.com/logos/intel-co-logo-1200x675.png?v=20250605133156",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.919705"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.910673"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.801731"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.743446"
+                }
+            ],
+            "overall_sentiment_score": -0.171355,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.215635",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.651011",
+                    "ticker_sentiment_score": "-0.326678",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "CFG",
+                    "relevance_score": "0.561846",
+                    "ticker_sentiment_score": "0.104470",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Danske Bank A S Makes New $87.05 Million Investment in Adobe Inc. $ADBE",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-danske-bank-a-s-makes-new-8705-million-investment-in-adobe-inc-adbe-2026-03-18/",
+            "time_published": "20260318T102900",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Danske Bank A S has acquired a new stake in Adobe Inc. worth approximately $87.05 million, purchasing 246,761 shares of the software company. Other institutional investors also modified their holdings in Adobe, with the company's stock currently owned 81.79% by institutional investors and hedge funds. Adobe recently reported strong quarterly earnings, topping consensus estimates with $6.06 EPS and $6.40 billion in revenue, but faces some negative sentiment due to a CEO transition and regulatory settlements.",
+            "banner_image": "https://www.marketbeat.com/logos/adobe-inc-logo-1200x675.png?v=20231212200254",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.915769"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.831707"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.707017"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.839956"
+                }
+            ],
+            "overall_sentiment_score": 0.2156,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ADBE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.089939",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.638618",
+                    "ticker_sentiment_score": "0.306416",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Apple Inc. $AAPL Stock Holdings Decreased by GM Advisory Group LLC",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-apple-inc-aapl-stock-holdings-decreased-by-gm-advisory-group-llc-2026-03-18/",
+            "time_published": "20260318T101457",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "GM Advisory Group LLC reduced its stake in Apple Inc. by 0.9% in the third quarter, selling 2,176 shares and holding 249,271 shares valued at $63.47 million. Despite this, Apple remains the firm's 8th largest position, comprising 2.7% of its holdings. Other institutional investors showed mixed activity, with some increasing their holdings.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.900278"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.849786"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.740602"
+                }
+            ],
+            "overall_sentiment_score": 0.280365,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.314473",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.623040",
+                    "ticker_sentiment_score": "0.204257",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Norway industrial site gets 50MW as T1 Energy targets AI data center",
+            "url": "https://www.stocktitan.net/news/TE/t1-energy-secures-50mw-grid-allocation-for-nordic-data-center-o0esht65ahez.html",
+            "time_published": "20260318T100909",
+            "authors": [],
+            "summary": "T1 Energy (NYSE: TE) has secured a 50MW grid power allocation from Statnett for its 926,000 sq ft industrial site in Mo i Rana, Norway, paving the way for its development into an AI data center node. This allocation is valid through 2033 and is expected to support data center operations as early as Q2 2027, leveraging the region's abundant hydroelectric power and cold climate. While 396MW remain in the interconnection queue and a decision is pending on a disputed 60MW allocation, the current 50MW accelerates T1 Energy's strategic expansion into European AI infrastructure.",
+            "banner_image": "https://ml.globenewswire.com/media/Mjg2YjI5NDktNGNlZi00NTFmLWE3OTctYjY2YmIzOTI4OGU5LTEzMDk3OTMtMjAyNi0wMy0xOC1lbg==/tiny/T1-Energy-Inc-.png",
+            "source": "Stock Titan",
+            "category_within_source": "General",
+            "source_domain": "Stock Titan",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.907280"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.728011"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.631945"
+                }
+            ],
+            "overall_sentiment_score": 0.325326,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TE",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.318053",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.623869",
+                    "ticker_sentiment_score": "0.343453",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Mizuho Markets Cayman LP Takes Position in Texas Instruments Incorporated $TXN",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-mizuho-markets-cayman-lp-takes-position-in-texas-instruments-incorporated-txn-2026-03-18/",
+            "time_published": "20260318T100831",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Mizuho Markets Cayman LP has acquired a new stake in Texas Instruments (NASDAQ:TXN) during the third quarter, purchasing 38,500 shares valued at approximately $7.07 million. This move is part of broader institutional investor activity, with several other hedge funds also adjusting their positions in the semiconductor company. Texas Instruments, currently rated as \"Hold\" by analysts with an average target price of $214.77, recently reported quarterly earnings that missed consensus estimates and declared a quarterly dividend of $1.42 per share.",
+            "banner_image": "https://www.marketbeat.com/logos/texas-instruments-incorporated-logo-1200x675.png?v=20250103080937",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.908195"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.840476"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.730084"
+                }
+            ],
+            "overall_sentiment_score": 0.130556,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TXN",
+                    "relevance_score": "0.993596",
+                    "ticker_sentiment_score": "0.058231",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "AMAT",
+                    "relevance_score": "0.645762",
+                    "ticker_sentiment_score": "0.100522",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.556088",
+                    "ticker_sentiment_score": "0.115790",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.585687",
+                    "ticker_sentiment_score": "0.130341",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Intel Corporation $INTC Stake Decreased by Mizuho Markets Cayman LP",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-intel-corporation-intc-stake-decreased-by-mizuho-markets-cayman-lp-2026-03-18/",
+            "time_published": "20260318T100743",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Mizuho Markets Cayman LP reduced its stake in Intel Corporation by 1.1% in the third quarter, selling 70,384 shares and holding 6,118,547 shares valued at over $205 million. Despite this, Intel remains the fund's second-largest position. The article details other institutional investments, recent news impacting Intel's stock, and analyst ratings, noting mixed sentiment around AI partnerships and competitive risks from Nvidia.",
+            "banner_image": "https://www.marketbeat.com/logos/intel-co-logo-1200x675.png?v=20250605133156",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.918151"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.825955"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.731178"
+                }
+            ],
+            "overall_sentiment_score": -0.308677,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.267025",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.894925",
+                    "ticker_sentiment_score": "-0.324069",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Chiplet innovation isn\u2019t waiting for perfect standards",
+            "url": "https://www.edn.com/chiplet-innovation-isnt-waiting-for-perfect-standards/",
+            "time_published": "20260318T093911",
+            "authors": [
+                "Andy Nightingale"
+            ],
+            "summary": "The article discusses how chiplet technology is being adopted rapidly across various industries like AI, HPC, and automotive, even though universal standards are still in development. It highlights the advantages of chiplets over monolithic SoCs, such as better yields, cost reduction, and the ability to combine diverse process technologies. The author emphasizes that companies are progressing with chiplet innovation by using modular designs and automated integration, rather than waiting for fully mature standards.",
+            "banner_image": null,
+            "source": "EDN - Voice of the Engineer",
+            "category_within_source": "General",
+            "source_domain": "EDN - Voice of the Engineer",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.941610"
+                }
+            ],
+            "overall_sentiment_score": 0.3425,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AIP",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.402964",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.747399",
+                    "ticker_sentiment_score": "0.319983",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.602999",
+                    "ticker_sentiment_score": "0.343658",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.623395",
+                    "ticker_sentiment_score": "0.309362",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.621058",
+                    "ticker_sentiment_score": "0.302990",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Reliant Wealth Planning Buys New Position in Apple Inc. $AAPL",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-reliant-wealth-planning-buys-new-position-in-apple-inc-aapl-2026-03-18/",
+            "time_published": "20260318T093857",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Reliant Wealth Planning has acquired a new position in Apple Inc. (NASDAQ:AAPL), purchasing 5,393 shares valued at approximately $1.373 million, making it its 20th largest holding. The acquisition comes amid positive sentiment driven by CEO Tim Cook dismissing retirement rumors, new product refreshes, and strategic acquisitions like MotionVFX. Analysts maintain a \"Moderate Buy\" consensus with a target price of $297.58, following Apple's strong Q1 earnings beat.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.905598"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.811414"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.718831"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.608233"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.620650"
+                }
+            ],
+            "overall_sentiment_score": 0.134729,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.430618",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.648879",
+                    "ticker_sentiment_score": "0.308677",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "FOX",
+                    "relevance_score": "0.572701",
+                    "ticker_sentiment_score": "-0.128612",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NWS",
+                    "relevance_score": "0.562423",
+                    "ticker_sentiment_score": "-0.142007",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "PTC Teams with NVIDIA to Unite Design and Robotics Simulation by Connecting Onshape to NVIDIA Isaac Sim",
+            "url": "https://www.lelezard.com/en/news-22152310.html",
+            "time_published": "20260318T093810",
+            "authors": [],
+            "summary": "PTC has announced a new robotics design-to-simulation workflow that connects its cloud-native Onshape CAD and PDM platform with NVIDIA Isaac Sim. This integration, showcased at NVIDIA GTC 2026, allows robotics teams to move from design to realistic simulation in minutes, maintaining a single source of truth and enabling faster development for physical AI. The workflow automatically updates simulations as designs change, streamlining the iteration process for engineers.",
+            "banner_image": "https://mma.prnewswire.com/media/2935325/PTC.jpg",
+            "source": "Lelezard",
+            "category_within_source": "General",
+            "source_domain": "Lelezard",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.945193"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.722371"
+                }
+            ],
+            "overall_sentiment_score": 0.3502,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PTC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.443720",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.839214",
+                    "ticker_sentiment_score": "0.430004",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.623192",
+                    "ticker_sentiment_score": "0.218993",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "AMD\u2019s Lisa Su Signals Potential Chip Supply for Naver\u2019s AI Data Centers",
+            "url": "https://www.thelec.net/news/articleView.html?idxno=5944",
+            "time_published": "20260318T093800",
+            "authors": [
+                "Seok Jin Lee"
+            ],
+            "summary": "AMD CEO Lisa Su met with Naver CEO Choi Soo-yeon to discuss potentially supplying AMD's AI-focused chips for Naver's expanding \"Gak Sejong\" AI data centers. Naver is looking to diversify its chip supply beyond Nvidia and is considering GPUs and CPUs from AMD and Intel to build customized racks and reduce costs. The discussions included AMD\u2019s Instinct GPUs and EPYC CPUs, and Su is also exploring collaborations with Samsung Electronics\u2019 foundry business.",
+            "banner_image": "https://www.thelec.net/news/photo/202603/5944_6299_5139.png",
+            "source": "THE ELEC, Korea Electronics Industry Media",
+            "category_within_source": "General",
+            "source_domain": "THE ELEC, Korea Electronics Industry Media",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.918866"
+                }
+            ],
+            "overall_sentiment_score": 0.131466,
+            "overall_sentiment_label": "Neutral",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.455101",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.880497",
+                    "ticker_sentiment_score": "-0.278571",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.611226",
+                    "ticker_sentiment_score": "0.109383",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Analog Devices Demonstrates Robotic Hand Technology at GTC 2026",
+            "url": "https://www.thelec.net/news/articleView.html?idxno=5918",
+            "time_published": "20260318T090957",
+            "authors": [
+                "JY Han"
+            ],
+            "summary": "Analog Devices (ADI) showcased advanced robotic hand technology at Nvidia\u2019s GTC 2026, demonstrating tactile sensing for object location without visual input. The company also introduced a new benchmark framework based on NIST work to evaluate industrial robot dexterity and presented an integrated system combining vision, touch, and control for complex tasks. ADI's \"physical intelligence\" aims to give robots human-like capabilities, positioning the company for growth in the expanding humanoid robot market.",
+            "banner_image": "https://www.thelec.net/news/photo/202603/5918_6276_036.jpg",
+            "source": "www.thelec.net",
+            "category_within_source": "General",
+            "source_domain": "www.thelec.net",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.706378"
+                }
+            ],
+            "overall_sentiment_score": 0.384692,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ADI",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.401776",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.614170",
+                    "ticker_sentiment_score": "0.310415",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cantor Fitzgerald L. P. Sells 10,475 Shares of Taiwan Semiconductor Manufacturing Company Ltd. $TSM",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-cantor-fitzgerald-l-p-sells-10475-shares-of-taiwan-semiconductor-manufacturing-company-ltd-tsm-2026-03-18/",
+            "time_published": "20260318T090932",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Cantor Fitzgerald L.P. has reduced its stake in Taiwan Semiconductor Manufacturing Company Ltd. (TSM) by 42.0%, selling 10,475 shares and now holding 14,475 shares valued at $4.043 million. Despite this trimming, Wall Street analysts maintain a \"Buy\" rating for TSM with an average target price of $391.43, citing strong fundamentals and anticipated AI-driven demand. The company reported robust earnings and revenue, but faces potential headwinds from geopolitical risks and increased competition from China's domestic chip manufacturing efforts.",
+            "banner_image": "https://www.marketbeat.com/logos/taiwan-semiconductor-manufacturing-company-limited-logo-1200x675.png?v=20221020142229",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.942770"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.840174"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.724016"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.636373"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.610717"
+                }
+            ],
+            "overall_sentiment_score": 0.244877,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.418135",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.624860",
+                    "ticker_sentiment_score": "0.316083",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MSFT",
+                    "relevance_score": "0.642624",
+                    "ticker_sentiment_score": "0.033981",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Uber Technologies, Inc. $UBER Shares Purchased by Livforsakringsbolaget Skandia Omsesidigt",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-uber-technologies-inc-uber-shares-purchased-by-livforsakringsbolaget-skandia-omsesidigt-2026-03-18/",
+            "time_published": "20260318T090831",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Livforsakringsbolaget Skandia Omsesidigt significantly increased its stake in Uber Technologies (NYSE:UBER) by 495.9% in the third quarter, bringing its total holdings to 77,866 shares valued at $7.625 million. The article also highlights positive sentiment surrounding Uber's new robotaxi partnership with Nvidia, analyst support, and expanding commercial deployments, alongside discussions of valuation, competitive risks, and recent insider trading activities. Uber reported Q4 earnings of $0.71 per share, missing estimates, but analysts anticipate $2.54 EPS for the current year.",
+            "banner_image": "https://www.marketbeat.com/logos/uber-technologies-inc-logo-1200x675.png?v=20191127154752",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.910686"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.808834"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.736293"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.621644"
+                }
+            ],
+            "overall_sentiment_score": 0.425812,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "UBER",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.408990",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.877130",
+                    "ticker_sentiment_score": "0.453024",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Quantum teleportation pioneer wins computing's top prize at IBM",
+            "url": "https://www.stocktitan.net/news/IBM/ibm-fellow-and-quantum-pioneer-charles-h-bennett-receives-a-m-turing-t09nu960ak88.html",
+            "time_published": "20260318T085940",
+            "authors": [],
+            "summary": "IBM Fellow Charles H. Bennett was named a co-recipient of the 2025 ACM A.M. Turing Award for his foundational contributions to quantum information science, including BB84 quantum cryptography and quantum teleportation. This marks the first time the prestigious award, often called the \"Nobel Prize in computing,\" recognizes quantum research, and Bennett plans to donate part of his USD 1 million prize. His five decades of work at IBM Research have been instrumental in bridging physics and computer science, laying the groundwork for modern quantum computing.",
+            "banner_image": "https://mma.prnewswire.com/media/2936478/IBM_Charles_H_Bennett_Alan_Turing_Award.jpg",
+            "source": "Stock Titan",
+            "category_within_source": "General",
+            "source_domain": "Stock Titan",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.705599"
+                }
+            ],
+            "overall_sentiment_score": 0.260955,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "0.964560",
+                    "ticker_sentiment_score": "0.316069",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "LRCX",
+                    "relevance_score": "0.631381",
+                    "ticker_sentiment_score": "0.237106",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.582564",
+                    "ticker_sentiment_score": "0.194769",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "TCS, Pearson Ink Multi-Year Deal For AI-Powered Learning",
+            "url": "https://www.ndtvprofit.com/business/tcs-pearson-ink-multi-year-deal-for-ai-powered-learning-11232143",
+            "time_published": "20260318T084436",
+            "authors": [
+                "Shubhayan Bhattacharya"
+            ],
+            "summary": "Tata Consultancy Services (TCS) has announced a multi-year partnership with UK-based learning company Pearson Plc. This collaboration aims to develop AI-powered learning and assessment solutions to help enterprises build future-ready workforces. The deal follows TCS's recent partnership with Nvidia for an AI platform, highlighting the company's efforts to adapt to AI-driven disruption in the IT services sector.",
+            "banner_image": "https://c.ndtvimg.com/2025-11/a58384n_tcs-layoffs_625x300_17_November_25.jpg?im=FeatureCrop,algorithm=dnn,width=773,height=435",
+            "source": "NDTV Profit",
+            "category_within_source": "General",
+            "source_domain": "NDTV Profit",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.844195"
+                }
+            ],
+            "overall_sentiment_score": 0.356109,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "PSO",
+                    "relevance_score": "0.949329",
+                    "ticker_sentiment_score": "0.389203",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.602387",
+                    "ticker_sentiment_score": "0.314142",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Coldstream Capital Management Inc. Purchases 34,297 Shares of Apple Inc. $AAPL",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-coldstream-capital-management-inc-purchases-34297-shares-of-apple-inc-aapl-2026-03-18/",
+            "time_published": "20260318T084102",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Coldstream Capital Management Inc. increased its stake in Apple Inc. by 6.1% in the third quarter, purchasing an additional 34,297 shares and bringing its total holdings to 598,954 shares valued at $152.5 million. Other institutional investors like Norges Bank and Nuveen LLC also made significant investments in Apple. The article also covers analyst ratings, recent stock performance, Apple's latest earnings report, dividend information, and key news impacting the company, including positive news about CEO Tim Cook, product refreshes, and strategic M&A, alongside neutral and negative sentiments like macro shifts and App Store policy criticisms.",
+            "banner_image": "https://www.marketbeat.com/logos/apple-inc-logo-1200x675.png",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.847366"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.913420"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.842298"
+                }
+            ],
+            "overall_sentiment_score": 0.164578,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.322923",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.632283",
+                    "ticker_sentiment_score": "0.282010",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "TSLA",
+                    "relevance_score": "0.587171",
+                    "ticker_sentiment_score": "-0.203992",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Samsung agrees to supply HBM4 to AMD; wider AI chip foundry alliance under discussion",
+            "url": "https://www.kedglobal.com/korean-chipmakers/newsView/ked202603180008",
+            "time_published": "20260318T083502",
+            "authors": [],
+            "summary": "Samsung Electronics has agreed to supply its latest HBM4 memory chips to AMD, signifying intensified collaboration in the AI chip sector. AMD CEO Lisa Su met with Samsung Chairman Jay Y. Lee and other Korean tech executives during her visit to Seoul. This partnership comes amid broader discussions about an AI chip foundry alliance, illustrating the growing strategic importance of HBM technology and advanced chip manufacturing.",
+            "banner_image": "https://www.kedglobal.com/data/ked/image/2026/03/18/ked202603180031.700x.0.jpg",
+            "source": "The Korea Economic Daily Global Edition",
+            "category_within_source": "General",
+            "source_domain": "The Korea Economic Daily Global Edition",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.847970"
+                }
+            ],
+            "overall_sentiment_score": 0.350391,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.977851",
+                    "ticker_sentiment_score": "0.445057",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.721532",
+                    "ticker_sentiment_score": "0.333441",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "MU",
+                    "relevance_score": "0.593005",
+                    "ticker_sentiment_score": "0.281614",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "T-Mobile NVIDIA Edge AI Pilot Adds New Angle To Valuation Story",
+            "url": "https://simplywall.st/stocks/us/telecom/nasdaq-tmus/t-mobile-us/news/t-mobile-nvidia-edge-ai-pilot-adds-new-angle-to-valuation-st",
+            "time_published": "20260318T083020",
+            "authors": [
+                "Simply Wall St"
+            ],
+            "summary": "T-Mobile US is piloting a distributed edge AI infrastructure with NVIDIA across its 5G network, aiming to support real-time AI workloads for applications like smart cities and industrial safety. This collaboration could transform T-Mobile from a traditional carrier into a platform provider for enterprise-grade edge AI computing. The initiative adds a new dimension to T-Mobile's valuation story, focusing on higher-value enterprise use cases and the long-term potential of its differentiated 5G platform in integrating with AI-driven workloads.",
+            "banner_image": null,
+            "source": "Simply Wall Street",
+            "category_within_source": "General",
+            "source_domain": "Simply Wall Street",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.948133"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.842767"
+                }
+            ],
+            "overall_sentiment_score": 0.308066,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TMUS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.319695",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.820183",
+                    "ticker_sentiment_score": "0.319253",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cim Investment Management Inc. Sells 15,520 Shares of Cisco Systems, Inc. $CSCO",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-cim-investment-management-inc-sells-15520-shares-of-cisco-systems-inc-csco-2026-03-18/",
+            "time_published": "20260318T081419",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Cim Investment Management Inc. significantly reduced its stake in Cisco Systems, Inc. by selling 15,520 shares, cutting its holding by 50.6% to 15,125 shares valued at $1,035,000. This comes as Cisco beat earnings expectations, increased its dividend, and reported large AI infrastructure orders, including an expanded partnership with NVIDIA. The company maintains a \"Moderate Buy\" consensus rating with a target price of $89.55.",
+            "banner_image": "https://www.marketbeat.com/logos/cisco-systems-inc-logo-1200x675.jpg",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.903797"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.929619"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.800148"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.723791"
+                }
+            ],
+            "overall_sentiment_score": 0.272362,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CSCO",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.393454",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.649297",
+                    "ticker_sentiment_score": "0.314931",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "JBL",
+                    "relevance_score": "0.581508",
+                    "ticker_sentiment_score": "0.036162",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "Intel Corporation $INTC Shares Sold by Boyar Asset Management Inc.",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-intel-corporation-intc-shares-sold-by-boyar-asset-management-inc-2026-03-18/",
+            "time_published": "20260318T081242",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Boyar Asset Management Inc. significantly reduced its stake in Intel Corporation by 45.8% in Q3, selling 15,814 shares and retaining 18,720 shares valued at approximately $628,000. Intel outperformed Q4 EPS estimates but posted a revenue decline and mixed guidance, contributing to a \"Reduce\" consensus rating from Wall Street analysts. The company faces mixed sentiment due to strong AI partnerships competing with rising threats from NVIDIA\u2019s new chips and insider buying/selling activity.",
+            "banner_image": "https://www.marketbeat.com/logos/intel-co-logo-1200x675.png?v=20250605133156",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.941877"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.811040"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.720749"
+                }
+            ],
+            "overall_sentiment_score": -0.286878,
+            "overall_sentiment_label": "Somewhat-Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.331018",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.803056",
+                    "ticker_sentiment_score": "-0.201965",
+                    "ticker_sentiment_label": "Somewhat-Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Korea, Taiwan chip sectors most exposed to helium shortage amid Middle East war",
+            "url": "https://www.scmp.com/tech/article/3347005/korea-taiwan-chip-sectors-most-exposed-helium-shortage-amid-middle-east-war-fitch",
+            "time_published": "20260318T080932",
+            "authors": [
+                "Wency Chen"
+            ],
+            "summary": "A Fitch Ratings report indicates that South Korea and Taiwan's semiconductor sectors are highly vulnerable to helium shortages due to the Middle East conflict, as both rely heavily on Qatar for their helium imports. Japan, in contrast, has a more diversified supply chain. The ongoing conflict has disrupted Qatar's LNG production and constrained shipments through the Strait of Hormuz, posing medium-term risks if disruptions persist.",
+            "banner_image": "https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/canvas/2026/03/18/e3cb2ada-f28d-463b-b7e0-72e67cb2aea3_7bdc3531.jpg?itok=qWKbL1ZN&v=1773821645",
+            "source": "South China Morning Post",
+            "category_within_source": "General",
+            "source_domain": "South China Morning Post",
+            "topics": [
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.742217"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.827586"
+                },
+                {
+                    "topic": "economy_macro",
+                    "relevance_score": "0.919074"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.725174"
+                }
+            ],
+            "overall_sentiment_score": -0.476219,
+            "overall_sentiment_label": "Bearish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "TSM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "-0.603893",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.703160",
+                    "ticker_sentiment_score": "-0.401210",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.648795",
+                    "ticker_sentiment_score": "-0.432842",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.626694",
+                    "ticker_sentiment_score": "-0.403489",
+                    "ticker_sentiment_label": "Bearish"
+                },
+                {
+                    "ticker": "INTC",
+                    "relevance_score": "0.641073",
+                    "ticker_sentiment_score": "-0.438320",
+                    "ticker_sentiment_label": "Bearish"
+                }
+            ]
+        },
+        {
+            "title": "Hon Hai teams up with SAP on enterprise AI adoption in Asia Pacific",
+            "url": "https://www.taipeitimes.com/News/biz/archives/2026/03/18/2003854054",
+            "time_published": "20260318T080848",
+            "authors": [
+                "Staff writer",
+                "with CNA"
+            ],
+            "summary": "Hon Hai (Foxconn) has partnered with SAP to accelerate enterprise AI adoption in the Asia Pacific region, focusing on integrating physical AI, SAP's supply chain management, and Hon Hai's smart manufacturing. This collaboration, announced at Nvidia's GTC, aims to address complex challenges in AI-powered manufacturing. Hon Hai also showcased its AI server racks and industrial humanoid robots at the conference.",
+            "banner_image": "https://img.taipeitimes.com/images/2026/03/18/Hon Hai.jpg",
+            "source": "Taipei Times",
+            "category_within_source": "General",
+            "source_domain": "Taipei Times",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.907614"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.848513"
+                }
+            ],
+            "overall_sentiment_score": 0.346767,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SAP",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.440895",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.817978",
+                    "ticker_sentiment_score": "0.310256",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "AAPL",
+                    "relevance_score": "0.712927",
+                    "ticker_sentiment_score": "0.207775",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Achmea Investment Management B.V. Sells 19,328 Shares of International Business Machines Corporation $IBM",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-achmea-investment-management-bv-sells-19328-shares-of-international-business-machines-corporation-ibm-2026-03-18/",
+            "time_published": "20260318T080741",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Achmea Investment Management B.V. has reduced its stake in International Business Machines (IBM) by 8.1%, selling 19,328 shares in Q3 and now holding 220,243 shares valued at $62.14 million. The article details IBM's strong Q4 earnings, strategic acquisitions and collaborations with NVIDIA, and its dividend, while also mentioning recent insider purchases and analyst ratings. Despite positive developments, concerns about the Confluent acquisition's integration risk are noted.",
+            "banner_image": "https://www.marketbeat.com/logos/international-business-machines-co-logo-1200x675.png?v=20221020160751",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.938086"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.830736"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.827063"
+                },
+                {
+                    "topic": "mergers_and_acquisitions",
+                    "relevance_score": "0.731232"
+                },
+                {
+                    "topic": "finance",
+                    "relevance_score": "0.620982"
+                }
+            ],
+            "overall_sentiment_score": 0.314545,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "IBM",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.337552",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.641246",
+                    "ticker_sentiment_score": "0.328973",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Advisory Services Network LLC Has $239.90 Million Position in NVIDIA Corporation $NVDA",
+            "url": "https://www.marketbeat.com/instant-alerts/filing-advisory-services-network-llc-has-23990-million-position-in-nvidia-corporation-nvda-2026-03-18/",
+            "time_published": "20260318T073755",
+            "authors": [
+                "MarketBeat"
+            ],
+            "summary": "Advisory Services Network LLC increased its stake in NVIDIA Corporation (NVDA) by 1.3% to 1,285,779 shares, making it their largest holding valued at $239.90 million. While Wall Street analysts remain largely bullish on NVIDIA with an average target of $274.21, significant insider selling has occurred, creating a short-term sentiment headwind despite product launches and projected high demand for its new systems.",
+            "banner_image": "https://www.marketbeat.com/logos/nvidia-co-logo-1200x675.jpg?v=20221020142916",
+            "source": "MarketBeat",
+            "category_within_source": "General",
+            "source_domain": "MarketBeat",
+            "topics": [
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.942462"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.848723"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.739577"
+                }
+            ],
+            "overall_sentiment_score": 0.269041,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.260674",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Foxconn teams up with SAP on enterprise AI adoption in Asia Pacific",
+            "url": "https://focustaiwan.tw/sci-tech/202603180011",
+            "time_published": "20260318T070848",
+            "authors": [
+                "Chung Jung-feng and Frances Huang"
+            ],
+            "summary": "Hon Hai Precision Industry Co. (Foxconn) and SAP SE have formed a strategic partnership to accelerate enterprise AI adoption in the Asia Pacific region. This collaboration, announced at Nvidia's GTC conference, aims to combine Foxconn's AI computing capabilities with SAP's enterprise application expertise. The focus will be on co-innovation for physical AI, supply chain management, and smart manufacturing.",
+            "banner_image": "https://imgcdn.cna.com.tw/Eng/WebEngPhotos/800/2026/20260318/1152x768_626565937935.jpg",
+            "source": "Focus Taiwan",
+            "category_within_source": "General",
+            "source_domain": "Focus Taiwan",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.910988"
+                }
+            ],
+            "overall_sentiment_score": 0.394352,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "SAP",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.418180",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.630064",
+                    "ticker_sentiment_score": "0.302704",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Alibaba Hikes AI Computing Prices Up to 34% After Demand Soars",
+            "url": "https://www.bloomberg.com/news/articles/2026-03-18/alibaba-hikes-ai-computing-prices-up-to-34-after-demand-soars",
+            "time_published": "20260318T043000",
+            "authors": [
+                "Luz Ding"
+            ],
+            "summary": "Alibaba Group Holding Ltd. has increased prices for its AI computing and storage products by up to 34% to capitalize on the soaring demand for AI services. This move includes a 5% to 34% hike for its T-Head AI computing chips and a 30% increase for its Cloud Parallel File Storage service. The price adjustments reflect the company's strategy to recoup substantial investments in AI technology.",
+            "banner_image": null,
+            "source": "Bloomberg.com",
+            "category_within_source": "General",
+            "source_domain": "Bloomberg.com",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.802982"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.921095"
+                }
+            ],
+            "overall_sentiment_score": 0.159156,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "BABA",
+                    "relevance_score": "0.954158",
+                    "ticker_sentiment_score": "0.382957",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMD",
+                    "relevance_score": "0.606134",
+                    "ticker_sentiment_score": "0.135232",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.647072",
+                    "ticker_sentiment_score": "0.139206",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "QCOM",
+                    "relevance_score": "0.582014",
+                    "ticker_sentiment_score": "0.065299",
+                    "ticker_sentiment_label": "Neutral"
+                }
+            ]
+        },
+        {
+            "title": "WeRide Introduces Robotaxi GXR Powered by NVIDIA DRIVE Hyperion at GTC 2026",
+            "url": "https://www.geneonline.com/weride-introduces-robotaxi-gxr-powered-by-nvidia-drive-hyperion-at-gtc-2026/",
+            "time_published": "20260318T030930",
+            "authors": [
+                "GOAI"
+            ],
+            "summary": "WeRide unveiled its new Robotaxi GXR, powered by the NVIDIA DRIVE Hyperion platform, at NVIDIA's GTC 2026 event. This marks a significant move for the company to enhance autonomous driving safety and efficiency, with plans to expand operations into Southeast Asia and other global markets. The integration of NVIDIA's advanced technology is central to WeRide's strategy for scaling its self-driving vehicle services.",
+            "banner_image": null,
+            "source": "www.geneonline.com",
+            "category_within_source": "General",
+            "source_domain": "www.geneonline.com",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "energy_transportation",
+                    "relevance_score": "0.939963"
+                }
+            ],
+            "overall_sentiment_score": 0.212073,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "WRD",
+                    "relevance_score": "0.315770",
+                    "ticker_sentiment_score": "0.042668",
+                    "ticker_sentiment_label": "Neutral"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.945469",
+                    "ticker_sentiment_score": "0.421061",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Cadence and NVIDIA Expand Collaboration to Accelerate Agentic AI Chip and System Design Solutions",
+            "url": "https://www.eetasia.com/cadence-and-nvidia-expand-collaboration-to-accelerate-agentic-ai-chip-and-system-design-solutions/",
+            "time_published": "20260318T030411",
+            "authors": [
+                "Cadence Design Systems Inc."
+            ],
+            "summary": "Cadence and NVIDIA are expanding their collaboration to accelerate agentic AI chip and system design solutions, integrating Cadence's industry-leading design tools with NVIDIA's accelerated computing stack. This partnership aims to leverage AI and physics-driven optimization to create more intelligent and efficient silicon, addressing the growing complexity of designing next-generation AI infrastructure. The enhanced solutions are expected to deliver significant improvements in throughput and power consumption, as demonstrated by early adoption by companies like Honda, Micron, and Larsen & Toubro Semiconductor.",
+            "banner_image": "https://www.eetasia.com/wp-content/uploads/sites/2/2025/09/Semiconductor-Wafer-Generic-15-123RF-1.jpg?w=600",
+            "source": "EE Times Asia",
+            "category_within_source": "General",
+            "source_domain": "EE Times Asia",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "life_sciences",
+                    "relevance_score": "0.722173"
+                },
+                {
+                    "topic": "manufacturing",
+                    "relevance_score": "0.649756"
+                }
+            ],
+            "overall_sentiment_score": 0.41911,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "CDNS",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.474461",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.914075",
+                    "ticker_sentiment_score": "0.444474",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "MU",
+                    "relevance_score": "0.709817",
+                    "ticker_sentiment_score": "0.340224",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Astera Labs (ALAB) Is Up 9.5% After Amazon Warrant Deal And GTC Showcase - Has The Bull Case Changed?",
+            "url": "https://simplywall.st/stocks/us/semiconductors/nasdaq-alab/astera-labs/news/astera-labs-alab-is-up-95-after-amazon-warrant-deal-and-gtc",
+            "time_published": "20260318T013933",
+            "authors": [
+                "Simply Wall St",
+                "Sasha Jovanovic"
+            ],
+            "summary": "Astera Labs (ALAB) saw a 9.5% increase in its stock price following its presentation at the NVIDIA GTC AI Conference 2026 and the announcement of a US$6.50 billion warrant agreement with Amazon. This deal links future equity to long-term collaboration, strengthening Astera Labs' position in AI and cloud infrastructure connectivity for hyperscale customers. While these developments boost confidence in hyperscale demand, investors are advised to consider risks like customer concentration and intense competition.",
+            "banner_image": "https://images.simplywall.st/company/096bd8f4-0b1d-42b5-bace-b9b279fbb273/chart/quote-price",
+            "source": "Simply Wall Street",
+            "category_within_source": "General",
+            "source_domain": "Simply Wall Street",
+            "topics": [
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.919321"
+                },
+                {
+                    "topic": "technology",
+                    "relevance_score": "0.843262"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.706140"
+                }
+            ],
+            "overall_sentiment_score": 0.336811,
+            "overall_sentiment_label": "Somewhat-Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "ALAB",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.445813",
+                    "ticker_sentiment_label": "Bullish"
+                },
+                {
+                    "ticker": "AMZN",
+                    "relevance_score": "0.706048",
+                    "ticker_sentiment_score": "0.303641",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                },
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "0.645191",
+                    "ticker_sentiment_score": "0.203276",
+                    "ticker_sentiment_label": "Somewhat-Bullish"
+                }
+            ]
+        },
+        {
+            "title": "Nvidia Continues to Be the King of AI",
+            "url": "https://www.morningstar.com/company-reports/1461840-nvidia-continues-to-be-the-king-of-ai",
+            "time_published": "20260318T010806",
+            "authors": [
+                "Brian Colello"
+            ],
+            "summary": "Nvidia maintains its leadership in Artificial Intelligence due to its strong market position in GPUs, hardware, software, and networking tools. Morningstar upgraded Nvidia's fair value to $260 from $240, reflecting the anticipated impact of 'Agentic AI' and a $1 trillion forecast following the GTC conference. Despite potential future efforts by tech companies to diversify away from Nvidia, its dominance in AI is expected to persist.",
+            "banner_image": "https://morningstar-morningstar-prod.web.arc-cdn.net/resizer/1bY4VtvaX_BEy66KbrjdD8VeE4k=/2000x2000/author-service-images-prod-us-east-1.publishing.aws.arc.pub/morningstar/5c8852db-04a9-4ec5-8527-9107fff80c09.jpg",
+            "source": "Morningstar",
+            "category_within_source": "General",
+            "source_domain": "Morningstar",
+            "topics": [
+                {
+                    "topic": "technology",
+                    "relevance_score": "1.000000"
+                },
+                {
+                    "topic": "earnings",
+                    "relevance_score": "0.944346"
+                },
+                {
+                    "topic": "financial_markets",
+                    "relevance_score": "0.820754"
+                }
+            ],
+            "overall_sentiment_score": 0.415753,
+            "overall_sentiment_label": "Bullish",
+            "ticker_sentiment": [
+                {
+                    "ticker": "NVDA",
+                    "relevance_score": "1.000000",
+                    "ticker_sentiment_score": "0.446588",
+                    "ticker_sentiment_label": "Bullish"
+                }
+            ]
+        }
+    ]
+}
