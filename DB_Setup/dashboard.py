@@ -209,13 +209,19 @@ with st.sidebar:
             Sentiment Terminal
         </div>
         <div style="font-size:11px;color:#334155;letter-spacing:0.06em;text-transform:uppercase;">
-            Tech sector · 2026
+            Tech sector · periodic signals
         </div>
     </div>
     <div style="font-size:11px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;
                 color:#334155;margin-bottom:12px;">Signal Guide</div>
     """, unsafe_allow_html=True)
-    for dot, label in [("#22c55e","Bullish > 0.20"),("#fbbf24","Neutral ±0.05"),("#ef4444","Bearish < −0.20")]:
+    for dot, label in [
+        ("#22c55e", "Bullish ≥ +0.25"),
+        ("#4ade80", "Positive > +0.05"),
+        ("#94a3b8", "Neutral −0.05 to +0.05"),
+        ("#fca5a5", "Softening < −0.05"),
+        ("#ef4444", "Headwinds < −0.25"),
+    ]:
         st.markdown(
             f'<div style="display:flex;align-items:center;gap:9px;margin-bottom:8px;">'
             f'<div style="width:7px;height:7px;border-radius:50%;background:{dot};flex-shrink:0;"></div>'
@@ -247,7 +253,7 @@ try:
                 2026 Tech Sentiment Monitor
             </h1>
             <p style="font-size:13px;color:#334155;margin:4px 0 0;font-family:'DM Sans',sans-serif;">
-                AI hardware cycle · Real-time news signal tracking
+                AI hardware cycle · Periodic news sentiment tracking
             </p>
         </div>
         <div style="font-size:11px;color:#334155;letter-spacing:0.05em;text-transform:uppercase;
@@ -297,7 +303,7 @@ try:
         section_label("Full sector grid")
 
         latest_all['conf_display'] = latest_all['confidence'] * 100
-        latest_all['24h'] = latest_all['sentiment_delta'].apply(
+        latest_all['Change'] = latest_all['sentiment_delta'].apply(
             lambda v: "▲" if v > 0.02 else ("▼" if v < -0.02 else "—")
         )
         latest_all['Δ'] = latest_all['sentiment_delta'].apply(
@@ -312,13 +318,13 @@ try:
         latest_all['Sparkline'] = latest_all['ticker'].map(sparklines)
 
         st.dataframe(
-            latest_all[['ticker','24h','Δ','price','Sparkline','sentiment_score','conf_display','top_keywords']],
+            latest_all[['ticker','Change','Δ','price','Sparkline','sentiment_score','conf_display','top_keywords']],
             column_config={
                 "ticker":          st.column_config.TextColumn("Ticker"),
-                "24h":             st.column_config.TextColumn("24h"),
+                "Change":          st.column_config.TextColumn("Change"),
                 "Δ":               st.column_config.TextColumn("Δ Sent."),
                 "price":           st.column_config.NumberColumn("Spot Price", format="$%.2f"),
-                "Sparkline":       st.column_config.LineChartColumn("7-day price"),
+                "Sparkline":       st.column_config.LineChartColumn("Recent price"),
                 "sentiment_score": st.column_config.ProgressColumn(
                     "Sentiment", min_value=-0.5, max_value=0.5, format="%.2f"
                 ),
@@ -396,7 +402,7 @@ try:
     #  TAB 3 — HEATMAP
     # ══════════════════════════════════════
     with tab_heatmap:
-        section_label("Sentiment intensity · ticker × date · last 14 days")
+        section_label("News sentiment · ticker × available date · last 14 observed dates")
 
         hm = full_df.copy()
         hm['date'] = hm['timestamp'].dt.date
@@ -451,14 +457,14 @@ try:
     #  TAB 4 — ALERTS
     # ══════════════════════════════════════
     with tab_alerts:
-        section_label("Set threshold alerts · banner fires when sentiment crosses your level")
+        section_label("Set news-sentiment thresholds · banner appears while the latest value is beyond your level")
 
         col_form, col_active = st.columns([1, 1], gap="large")
 
         with col_form:
             st.markdown('<div style="font-size:12px;color:#64748b;margin-bottom:14px;">'
                         'Choose a ticker and set upper/lower sentiment thresholds. '
-                        'A banner will appear at the top of the page on next refresh.</div>',
+                        'A banner appears at the top while the latest stored value is beyond the threshold.</div>',
                         unsafe_allow_html=True)
 
             alert_ticker = st.selectbox("Ticker", all_tickers, key="alert_ticker")
@@ -508,7 +514,7 @@ try:
                         f'<div><span style="font-size:13px;font-weight:600;color:{c};">{tkr}</span>'
                         f'<div style="font-size:11px;color:#334155;margin-top:3px;">{ab}{sep}{bl}</div></div>'
                         f'<div style="text-align:right;">'
-                        f'<div style="font-size:11px;color:#475569;margin-bottom:2px;">NOW</div>'
+                        f'<div style="font-size:11px;color:#475569;margin-bottom:2px;">LATEST STORED</div>'
                         f'<div style="font-family:\'DM Mono\',monospace;font-size:13px;color:#f1f5f9;">{cur_str}</div>'
                         f'</div></div>',
                         unsafe_allow_html=True,
@@ -566,9 +572,9 @@ try:
         )
 
         c1, c2, c3 = st.columns(3)
-        c1.metric("Spot Price",       f"${latest['price']:.2f}")
-        c2.metric("AI Confidence",    f"{conf_pct:.1f}%")
-        c3.metric("Primary Catalyst", primary_kw)
+        c1.metric("Latest Price",      f"${latest['price']:.2f}")
+        c2.metric("Heuristic Confidence", f"{conf_pct:.1f}%")
+        c3.metric("Top Matched Keyword", primary_kw)
 
         if other_kws:
             st.markdown(
@@ -579,7 +585,7 @@ try:
 
         # Dual-axis Plotly chart (price + sentiment)
         st.markdown("<div style='height:16px;'></div>", unsafe_allow_html=True)
-        section_label(f"Price & sentiment · {ticker_choice}")
+        section_label(f"Price & news sentiment · {ticker_choice}")
 
         fig2 = go.Figure()
         fig2.add_trace(go.Scatter(
@@ -630,21 +636,22 @@ with st.expander("How the scores work", expanded=False):
 
 | Score | Signal |
 |-------|--------|
-| 0.25+ | High conviction catalyst |
+| 0.25+ | High conviction |
 | 0.05 – 0.24 | Positive momentum |
 | −0.05 – 0.05 | Neutral / noisy |
 | Below −0.25 | Significant headwinds |
         """)
     with col2:
         st.markdown("""
-**AI Confidence Score** — the trust metric
+**Heuristic Confidence Score** — a directional data-quality signal, not an AI probability
 
-1. **News volume** (40%) — more articles → higher trust
-2. **Keyword match** (30%) — specific 2026 catalysts detected
-3. **Trend alignment** (30%) — price action matches sentiment
-4. **Volatility penalty** — noisy stocks are penalized
+1. **News sentiment magnitude** (35%)
+2. **Matched keyword count** (25%)
+3. **5-day return/news alignment** (25%)
+4. **Sentiment change boost** (up to 30%)
+5. **Volatility penalty** (up to 30%)
         """)
-    st.info("**Golden Cross:** Sentiment > 0.25 *and* Confidence > 60% is the strongest signal.")
+    st.info("**Strongest displayed heuristic:** News sentiment > 0.25 and heuristic confidence > 60%.")
 
 # ─────────────────────────────────────────────
 #  MARKET CONTEXT
@@ -653,7 +660,7 @@ st.markdown("<div style='height:16px;'></div>", unsafe_allow_html=True)
 _month_label = datetime.datetime.now().strftime("%B %Y")
 section_label(f"Market context · {_month_label}")
 
-tab_logic, tab_cats = st.tabs(["Scoring logic", "Active catalysts"])
+tab_logic, tab_cats = st.tabs(["Scoring logic", "Matched keywords"])
 
 with tab_logic:
     col_a, col_b = st.columns(2, gap="large")
@@ -663,15 +670,16 @@ with tab_logic:
 - **Right / green** → bullish news dominates; +0.25 = high conviction
 - **Left / red** → bearish news dominates
 
-**Confidence weights**
-1. News volume (40%)
-2. Keyword relevance (30%)
-3. Price–sentiment alignment (30%)
-4. Volatility penalty
+**Confidence inputs**
+1. News sentiment magnitude
+2. Matched keyword count
+3. 5-day return/news alignment
+4. Sentiment change boost
+5. Volatility penalty
         """)
     with col_b:
         st.markdown("""
-**When to act**
+**How to read the signal**
 
 | Sentiment | Confidence | Read |
 |-----------|------------|------|
@@ -689,14 +697,14 @@ with tab_cats:
             .copy()
             .sort_values('confidence', ascending=False)
         )
-        cat_df['Primary Catalyst'] = cat_df['top_keywords'].apply(safe_keyword)
+        cat_df['Top Matched Keyword'] = cat_df['top_keywords'].apply(safe_keyword)
         cat_df['Confidence']       = (cat_df['confidence'] * 100).apply(lambda x: f"{x:.0f}%")
         cat_df['Sentiment']        = cat_df['sentiment_score'].apply(lambda x: f"{x:+.3f}")
         st.dataframe(
-            cat_df[['ticker', 'Primary Catalyst', 'Sentiment', 'Confidence']],
+            cat_df[['ticker', 'Top Matched Keyword', 'Sentiment', 'Confidence']],
             column_config={
                 "ticker":           st.column_config.TextColumn("Ticker"),
-                "Primary Catalyst": st.column_config.TextColumn("Top Keyword"),
+                "Top Matched Keyword": st.column_config.TextColumn("Top Matched Keyword"),
                 "Sentiment":        st.column_config.TextColumn("Sentiment"),
                 "Confidence":       st.column_config.TextColumn("Confidence"),
             },
@@ -705,8 +713,8 @@ with tab_cats:
         )
         # Highlight the highest-confidence ticker dynamically
         top = cat_df.iloc[0]
-        top_kw = top['Primary Catalyst']
+        top_kw = top['Top Matched Keyword']
         top_ticker = top['ticker']
-        st.info(f"Highest confidence signal: **{top_ticker}** — top keyword **{top_kw}** · {top['Confidence']} confidence")
+        st.info(f"Highest heuristic confidence: **{top_ticker}** — top matched keyword **{top_kw}** · {top['Confidence']}")
     else:
-        st.warning("Load the dashboard first to see live catalyst data.")
+        st.warning("Load the dashboard first to see stored keyword matches.")
